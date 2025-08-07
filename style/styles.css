@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* General */
 body {
     font-family: Arial, sans-serif;
@@ -10,6 +16,7 @@ body {
 .contenedor{
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 40px;
     padding: 20px;
     background-color: rgb(250, 242, 230);
 }
@@ -20,9 +27,21 @@ h1 {
     text-align: center;
 }
 
+#fotoPerfil{
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
 nav{
+    position: fixed;
     background-color: blanchedalmond;
     padding: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;/* Para que quede por encima de otros elementos */
 }
 nav ul{
     list-style: none;
@@ -41,6 +60,9 @@ nav a{
 
 nav a:hover{
     color: white;    
+}
+main{
+    margin-top: 60px;
 }
 
 /* Encabezado */
