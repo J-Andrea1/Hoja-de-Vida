@@ -5,25 +5,49 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6; 
+}
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(250, 242, 230);
 }
 
 h1 {
     color: #2c3e50;
-    margin-bottom: 10px;
+    margin-bottom: 10px 20px;
     text-align: center;
+}
+
+nav{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    margin: 0;
+    justify-content: center;      
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(117, 29, 29, 0.863);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;    
 }
 
 /* Encabezado */
 #about-me { 
     text-align: center;
-    padding: 20px;
-    background-color: #ecf0f1;
+    padding: 20px;    
     margin-bottom: 20px;
-}
-
-#about-me h1 {
-    font-size: 2rem;
 }
 
 #about-me img {
