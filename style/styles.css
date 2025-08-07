@@ -21,19 +21,6 @@ body {
     background-color: rgb(250, 242, 230);
 }
 
-h1 {
-    color: #2c3e50;
-    margin-bottom: 10px 20px;
-    text-align: center;
-}
-
-#fotoPerfil{
-    width: 200px;
-    border-radius: 10px;
-    display: block;
-    margin: 20px auto;
-}
-
 nav{
     position: fixed;
     background-color: blanchedalmond;
@@ -61,98 +48,110 @@ nav a{
 nav a:hover{
     color: white;    
 }
+
 main{
-    margin-top: 60px;
+    margin-top: 10px;
+}
+
+h1{
+    color: #2c3e50;
+    margin-bottom: 10px 20px;
+    text-align: center;
+}
+h2{
+    color: rgba(117, 29, 29, 0.863);
+}
+h3{
+    color: rgba(117, 29, 29, 0.863);
+}
+
+#fotoPerfil{
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
 }
 
 /* Encabezado */
 #about-me { 
     text-align: center;
-    padding: 20px;    
+    padding: 10px;    
     margin-bottom: 20px;
 }
 
-#about-me img {
-    max-width: 150px;
-    border-radius: 50%;
-    margin-top: 20px;
-}
-
-/* Enlaces */
-#links {
-    text-align: center;
-    padding: 10px;
-    background-color: #bdc3c7;
-    margin-bottom: 20px;
-}
-
-#links a {
-    text-decoration: none;
-    color: #2980b9;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-#links a:hover {
-    text-decoration: underline;
-    color: #34495e;
-}
-
-/* Secciones de listas */
-.hobbies,
-.tasks {
+#experience{    
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #ffffff;
+    background-color: rgb(252, 230, 204);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.hobbies ul,
-.tasks ol {
-    margin: 0;
-    padding: 0 20px;
-}
-
-.hobbies li,
-.tasks li {
-    margin-bottom: 5px;
-}
-
-/* Tabla */
-.schedule {
+#studies{
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #ffffff;
+    background-color: rgb(252, 230, 204);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.schedule table {
+#training{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(252, 230, 204);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+}
+
+#training table{
     width: 100%;
     border-collapse: collapse;
     text-align: center;
 }
 
-.schedule th,
-.schedule td {
+#training th,
+#training td {
     padding: 10px;
     border: 1px solid #ddd;
 }
 
-.schedule th {
-    background-color: #3498db;
-    color: white;
+#training th {
+    background-color: rgb(250, 242, 230);
+    color: #2c3e50;
 }
 
-.schedule td {
+#training td {
     background-color: #f4f4f4;
 }
 
-/* Formulario */
-.contact-form {
+#hobies{
+   padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(252, 230, 204);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#sitios{
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(252, 230, 204);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#sitios a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#contac{
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -161,8 +160,8 @@ main{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form input,
-.contact-form button {
+#contac input,
+#contac button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -171,13 +170,34 @@ main{
     border: 1px solid #ccc;
 }
 
-.contact-form button {
-    background-color: #27ae60;
-    color: white;
+#contac button {
+    background-color: bisque;
+    color: rgba(117, 29, 29, 0.863);
     border: none;
     cursor: pointer;
 }
 
-.contact-form button:hover {
-    background-color: #2ecc71;
+#contac button:hover {
+    background-color: beige;
 }
+
+#footer{  
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* espacio entre imágenes */
+  align-items: center;
+  flex-wrap: wrap; /* permite que bajen si no caben */
+  border-top: 1px solid #ccc; 
+}
+
+#footer img {
+  width: 120px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#footer img:hover {
+  transform: scale(1.1); /* efecto al pasar el mouse */
+}
+
