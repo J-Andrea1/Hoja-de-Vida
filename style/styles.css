@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #333333;
     line-height: 1.6; 
 }
 .contenedor{
@@ -41,7 +41,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: rgba(117, 29, 29, 0.863);
+    color: #8B0000;
     font-weight: bold;
 }
 
@@ -54,15 +54,15 @@ main{
 }
 
 h1{
-    color: #2c3e50;
+    color: #2F4F4F;
     margin-bottom: 10px 20px;
     text-align: center;
 }
 h2{
-    color: rgba(117, 29, 29, 0.863);
+    color: #2F4F4F;
 }
 h3{
-    color: rgba(117, 29, 29, 0.863);
+    color: #2F4F4F;
 }
 
 #fotoPerfil{
@@ -120,7 +120,7 @@ h3{
 
 #training th {
     background-color: rgb(250, 242, 230);
-    color: #2c3e50;
+    color: #2F4F4F;
 }
 
 #training td {
@@ -148,7 +148,7 @@ h3{
 #sitios a{
     text-decoration: none;
     font-weight: bold;
-    color: #2c3e50;
+    color: #8B0000;
 }
 
 #contac{
@@ -171,8 +171,8 @@ h3{
 }
 
 #contac button {
-    background-color: bisque;
-    color: rgba(117, 29, 29, 0.863);
+    background-color: rgb(250, 242, 230);
+    color: #2F4F4F;
     border: none;
     cursor: pointer;
 }
